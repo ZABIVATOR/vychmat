@@ -8,7 +8,7 @@ h = 0.5
 Co = float(input())
 T = h * Co
 x = np.linspace(h, L, N-1)
-t = np.linspace(0, time, int(time/T))
+t = np.linspace(h, time, int(time/T))
 sin = []
 Y=[]
 
