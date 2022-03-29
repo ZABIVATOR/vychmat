@@ -10,7 +10,7 @@ C = float(input())
 tau = h * C
 print (tau)
 x = np.linspace(h, L, N-1)
-t = np.linspace(0, time, int(time/tau))
+t = np.linspace(h, time, int(time/tau))
 sin = []
 Y=[]
 
